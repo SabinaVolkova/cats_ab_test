@@ -1,5 +1,5 @@
 
-i all, this is a Data Analytics Project with A/B testing
+Hi all, this is a Data Analytics Project with A/B testing
 
 # Project Objective
 The purpose of this project is to learn how to apply A/B testing and understand if company should move gate from level 30 to level 40 or keep gate on level 30 by examining which version is more popular for users.
