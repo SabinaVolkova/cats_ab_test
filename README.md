@@ -1,43 +1,5 @@
-Цель 
 
-Technologies
-Python, Jupyter Notebook, Pandas, NumPy, Matplotlib, StatsModels
-
-Methods Used
-Inferential Statistics
-Data Visualization
-Calculated Probability
-A/B Testing
-Machine Learning
-
-Кратко про данные 
-
-Пройденные шаги анализа
-
-
-
-- Есть ли пропущенные значения - No missing values
-- Проверка на однородность распределения - The distibution is uniform
-- Статистический анализ, Chi2 test на равенство распределений: p = 0.0086
-- Наложения - No overlaps
-- Conversion rate for each group
-- Средняя вовлечённость - Average engagement 
-- Percentage of active users
-- Levene’s test на равенство дисперсий: p = 0.467 → дисперсии однородны
-- QQ Plot показал, что данные не нормальны
-- Mann-Whitney U test на sum_gamerounds: p = 0.0502 → на грани статистической значимости
-- Bootstrapping:
-    CI для gate_30: (50.62, 55.16)  
-    CI для gate_40: (50.35, 52.22)
-- столбчатый график с доверительными интервалами (95% CI) для двух групп (gate_30 и gate_40) по количеству сыгранных раундов (sum_gamerounds). Наложение интервалов между двумя группами есть, но не полное, что говорит о том, что разница между группами есть, но она небольшая и может быть не статистически значимой.
-
-
-Основные выводы 
-Что я бы сделала дальше 
-
-
-
-Hi all, this is a Data Analytics Project with A/B testing
+i all, this is a Data Analytics Project with A/B testing
 
 # Project Objective
 The purpose of this project is to learn how to apply A/B testing and understand if company should move gate from level 30 to level 40 or keep gate on level 30 by examining which version is more popular for users.
